@@ -16,15 +16,17 @@ export default function DomainSalePage() {
   ]
 
   const handleEmailClick = useCallback(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = 'mailto:sethukumartirumanyam@gmail.com';
-    }
+    alert('Please contact us at sethukumartirumanyam@gmail.com')
+    // if (typeof window !== 'undefined') {
+    //   window.location.href = 'mailto:sethukumartirumanyam@gmail.com';
+    // }
   }, []);
 
   const handleCallClick = useCallback(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = 'tel:+918886257181';
-    }
+    alert('Please contact us at +918886257181')
+    // if (typeof window !== 'undefined') {
+    //   window.location.href = 'tel:+918886257181';
+    // }
   }, []);
 
 
